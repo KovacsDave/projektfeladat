@@ -1,0 +1,89 @@
+Ami kell: 
+Listafeltöltés (read) 
+szűrés táblázattal
+update
+delete
+insert
+
+tesztelhető mennyiségű adat legyen! Legalább 2 kategória, és 5-5 egyed a kategóriákon belül
+
+kategoria(id, nev)
+
+Maroklőfegyver
+Gépkarabély
+Géppisztoly
+Civil
+
+tuzfegyverek(id, nev, kaliber, kategoriaID)
+SigSauer P320
+Glock 19
+S&W M&P Shield 2.0
+Tula TT-33
+Walther PPK
+
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Glock 19', '9x19 mm', '1');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'S&W M&P Shield 2.0', '.40 S&W', '1');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Tula TT-33', '7.62x25 mm', '1');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Walther PPK', '.380 ACP', '1');
+
+SigSauer MCX
+Bushmaster ACR
+AK-74
+STG-44
+EM-1
+HK 416
+
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'SigSauer MCX Virtus', '.300 AAC Blackout', '2');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Bushmaster ACR', '5.56x45 mm NATO', '2');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'AK-74', '5.45x39 mm', '2');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'StG-44', '7.92x33 mm', '2');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'EM-1', '.280 British', '2');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'HK-416', '5.56x45 mm NATO', '2');
+
+
+SigSauer MPX
+Vz. 61
+CZ Scorpion EVO3 A1
+MP-5
+M3 Grease Gun
+PPSh-41
+PP-19 Vityaz
+
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'B&T GHM-9', '9x19 mm', '3');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Vz. 61', '.25 ACP', '3');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Heckler & Koch MP-5', '9x19 mm', '3');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'M3 Grease Gun', '.45 ACP', '3');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'PPSh-41', '7.62x25 mm', '3');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'PP-19 Vityaz', '9x19 mm', '3');
+
+
+AR-15
+SR-25
+CS Scorpion EVO3 S1
+PS90
+SP-5K
+MR 223
+
+
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'AR-15', '.223 Remington', '4');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'SR-25', '.308 Winchester', '4');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'CZ Scorpion EVO3 S1', '9x19 mm', '4');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'FN PS90', '5.7x28 mm', '4');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Heckler & Koch SP-5K', '9x19 mm', '4');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Heckler & Koch MR 223', '.223 Remington', '4');
+
+
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'PKM', '7.62x54mmR', '5');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'M249', '5,56x45 mm NATO', '5');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'MG-3', '7.62x51 mm NATO', '5');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'M240 B', '7.62x51 mm NATO', '5');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Lewis Gun', '.303 British', '5');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'Browning Automatic Rifle', '.30-06', '5');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'RPD', '7.62x39 mm', '5');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'L1A2', '7.62x51 mm NATO', '5');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'MG-38', '7.92x57 mm Mauser', '5');
+
+
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'SVD-63', '7.62x54R', '6');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'M110', '7.62x51 mm NATO', '6');
+INSERT INTO `tipusok` (`id`, `nev`, `kaliber`, `kategoriaID`) VALUES (NULL, 'M-14 EBR', '7.62x51 mm NATO', '6');
